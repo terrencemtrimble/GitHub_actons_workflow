@@ -7,4 +7,4 @@ jobs:
       - name: Hello
         run: echo "Hello, GitHub Actions!"
       - name: Display repo name
-        run: echo "the workflow is running"
+        run: echo "this workflow is running in ${{ github.repository }}"
